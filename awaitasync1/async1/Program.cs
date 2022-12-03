@@ -15,6 +15,7 @@
             {
                 string html = await httpClient.GetStringAsync(url);
                 await File.WriteAllTextAsync(fileName, html);
+                Console.WriteLine(html);
             }
 
         }
