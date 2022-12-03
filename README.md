@@ -8,6 +8,7 @@
 不支持异步 就可以手动的拿异步方法的值
 ![image](https://user-images.githubusercontent.com/46043439/205429471-6df262f6-4dbf-46aa-988e-0a00f3f8fde1.png)
 那么如果我想写入值的话可以用wait()
-![image](https://user-images.githubusercontent.com/46043439/205429529-3c3a124c-113e-4979-b10d-f46a3ab40edd.png)
+![image](https://user-images.githubusercontent.com/46043439/205429529-3c3a124c-113e-4979-b10d-f46a3ab40edd.png)  
+重：虽然这样能解决异步 但是各位经量不要去调用wait()与Result().因为有几率造成死锁的风险
 
 
