@@ -1,0 +1,15 @@
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\bin\Debug\net6.0\async1.exe
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\bin\Debug\net6.0\async1.deps.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\bin\Debug\net6.0\async1.runtimeconfig.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\bin\Debug\net6.0\async1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\bin\Debug\net6.0\async1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.csproj.AssemblyReference.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.AssemblyInfoInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.AssemblyInfo.cs
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\refint\async1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\async1.genruntimeconfig.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\async1\obj\Debug\net6.0\ref\async1.dll
