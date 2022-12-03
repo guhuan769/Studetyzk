@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\async1\\async1.csproj",
+      "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk - 副本\\awaitasync1\\async1\\async1.csproj",
       "projectName": "async1",
-      "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\async1\\async1.csproj",
+      "projectPath": "D:\\Code\\Studetyzk\\Studetyzk - 副本\\awaitasync1\\async1\\async1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\async1\\obj\\",
+      "outputPath": "D:\\Code\\Studetyzk\\Studetyzk - 副本\\awaitasync1\\async1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
