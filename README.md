@@ -9,6 +9,11 @@
 ![image](https://user-images.githubusercontent.com/46043439/205429471-6df262f6-4dbf-46aa-988e-0a00f3f8fde1.png)
 那么如果我想写入值的话可以用wait()
 ![image](https://user-images.githubusercontent.com/46043439/205429529-3c3a124c-113e-4979-b10d-f46a3ab40edd.png)  
-重：虽然这样能解决异步 但是各位经量不要去调用wait()与Result().因为有几率造成死锁的风险
+重：虽然这样能解决异步 但是各位经量不要去调用wait()与Result().因为有几率造成死锁的风险  那么最妥善的处理放:  
+线程池TheadPool(守护线程)  
+异步委托  
+![image](https://user-images.githubusercontent.com/46043439/205429803-0fadcc95-6f92-455f-b191-78a505be4c31.png)  
+![image](https://user-images.githubusercontent.com/46043439/205429891-3f00eb59-7a9f-4f95-9039-13742f6950f3.png)
+
 
 
