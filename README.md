@@ -19,4 +19,5 @@ async await原理
 
 1 Thread.CurrentThead.ManagedThreadid获得当前线程ID 。验证：在耗时异步(写入大写字符串)操作前后分别打印线程ID  
 
+在UI界面下使用THEARD.spleep 会出现UI假死现象 如果使用Task.De...(300);则不会出现
 
