@@ -1,0 +1,10 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/awaitasync1/AsnycAwait原理1/bin/Debug/net6.0
+/awaitasync1/AsnycAwait原理1/obj/Debug/net6.0
+/awaitasync1/AsnycAwait原理1/obj
+/awaitasync1/WinFormsApp1/obj
+/awaitasync1/没有async的异步方法/obj
+/awaitasync1/线程切换1/obj
