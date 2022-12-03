@@ -14,6 +14,9 @@
 异步委托  
 ![image](https://user-images.githubusercontent.com/46043439/205429803-0fadcc95-6f92-455f-b191-78a505be4c31.png)  
 ![image](https://user-images.githubusercontent.com/46043439/205429891-3f00eb59-7a9f-4f95-9039-13742f6950f3.png)
+async await原理
+![image](https://user-images.githubusercontent.com/46043439/205433777-27821b2a-57c0-4669-8450-20048269dd01.png)  
 
+1 Thread.CurrentThead.ManagedThreadid获得当前线程ID 。验证：在耗时异步(写入大写字符串)操作前后分别打印线程ID  
 
 
