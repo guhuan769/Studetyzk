@@ -20,5 +20,11 @@ async await原理
 
 1 Thread.CurrentThead.ManagedThreadid获得当前线程ID 。验证：在耗时异步(写入大写字符串)操作前后分别打印线程ID  
 
-在UI界面下使用THEARD.spleep 会出现UI假死现象 如果使用Task.De...(300);则不会出现
+在UI界面下使用THEARD.spleep 会出现UI假死现象 如果使用Task.De...(300);则不会出现  
+2 在传统的多线程编程下终止线程经常使用Thead.Abort();但是在Net5以后该方法不推荐使用。
+![image](https://user-images.githubusercontent.com/46043439/205472306-bf51e88a-aec9-483f-8e3b-1216f98cf657.png)  
+实现  
+![image](https://user-images.githubusercontent.com/46043439/205472325-f9f2b8b0-37ec-43e0-bd4b-a4bb6c9109e3.png)  
+![image](https://user-images.githubusercontent.com/46043439/205472349-e67dda1e-c864-4ff0-bd41-7b4e59368e7d.png)  
+
 
