@@ -1,0 +1,15 @@
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.csproj.AssemblyReference.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.AssemblyInfoInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.AssemblyInfo.cs
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\bin\Debug\net6.0\WhenAllP20.exe
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\bin\Debug\net6.0\WhenAllP20.deps.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\bin\Debug\net6.0\WhenAllP20.runtimeconfig.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\bin\Debug\net6.0\WhenAllP20.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\bin\Debug\net6.0\WhenAllP20.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\refint\WhenAllP20.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\WhenAllP20.genruntimeconfig.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\WhenAllP20\obj\Debug\net6.0\ref\WhenAllP20.dll

@@ -1,0 +1,15 @@
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\bin\Debug\net6.0\委托P22.exe
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\bin\Debug\net6.0\委托P22.deps.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\bin\Debug\net6.0\委托P22.runtimeconfig.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\bin\Debug\net6.0\委托P22.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\bin\Debug\net6.0\委托P22.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.csproj.AssemblyReference.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.AssemblyInfoInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.AssemblyInfo.cs
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\refint\委托P22.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\委托P22.genruntimeconfig.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\委托P22\obj\Debug\net6.0\ref\委托P22.dll

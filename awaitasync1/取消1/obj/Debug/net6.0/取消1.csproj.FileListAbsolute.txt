@@ -1,0 +1,15 @@
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\bin\Debug\net6.0\取消1.exe
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\bin\Debug\net6.0\取消1.deps.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\bin\Debug\net6.0\取消1.runtimeconfig.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\bin\Debug\net6.0\取消1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\bin\Debug\net6.0\取消1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.csproj.AssemblyReference.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.AssemblyInfoInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.AssemblyInfo.cs
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\refint\取消1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\取消1.genruntimeconfig.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\取消1\obj\Debug\net6.0\ref\取消1.dll
