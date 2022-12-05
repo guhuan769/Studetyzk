@@ -7,5 +7,8 @@ IOC
 生命周期  
 ![image](https://user-images.githubusercontent.com/46043439/205592916-588efe92-9c71-4483-b4a9-3fb5750b080e.png)  
 
+![image](https://user-images.githubusercontent.com/46043439/205600600-3fb0457d-87cd-441e-8f4a-e332aae4ea5e.png)  
+
 ![Uploading image.png…]()  
+
 
