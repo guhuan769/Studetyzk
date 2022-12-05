@@ -32,6 +32,22 @@
                     Console.WriteLine($"每组人数{item1}");
                 }
             }
+
+            //selected 投影
+            IEnumerable<Employee> employees1 = employees.Select(x => new Employee() { Age = x.Age, });
+            Console.WriteLine(string.Join(",", employees1));
+
+            ///处理字母 比如fsdjfldaufoiewjewjaflkds统计出顺序
+            string str = "fsdjfldaufoiewjewjaflkds";
+            //IsLetter判断是否是字符
+            var a = str.Where(s => char.IsLetter(s)).Select(c => char.ToLower(c)).GroupBy(x => x).Select(x => new { x.Key, Count = x.Count() })
+                .OrderBy(x => x.Key).Where(x => x.Count > 2).Select(x => new { x.Key,count = x.Count }).ToList();
+
+            //Console.WriteLine(string.Join(",", a.Count));
+            foreach (var item in a)
+            {
+                Console.WriteLine($"{item.Key} {item.count}");
+            }
         }
     }
 }
