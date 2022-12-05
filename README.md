@@ -5,4 +5,7 @@ IOC
 ![image](https://user-images.githubusercontent.com/46043439/205588560-83ceacfe-31fd-4b5c-80cc-00a4774f906c.png)  
 IOC  
 生命周期  
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/46043439/205592916-588efe92-9c71-4483-b4a9-3fb5750b080e.png)  
+
+![Uploading image.png…]()  
+
