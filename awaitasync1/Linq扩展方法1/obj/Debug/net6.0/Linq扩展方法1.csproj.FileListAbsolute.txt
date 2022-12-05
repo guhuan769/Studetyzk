@@ -1,0 +1,15 @@
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\bin\Debug\net6.0\Linq扩展方法1.exe
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\bin\Debug\net6.0\Linq扩展方法1.deps.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\bin\Debug\net6.0\Linq扩展方法1.runtimeconfig.json
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\bin\Debug\net6.0\Linq扩展方法1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\bin\Debug\net6.0\Linq扩展方法1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.csproj.AssemblyReference.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.AssemblyInfoInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.AssemblyInfo.cs
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\refint\Linq扩展方法1.dll
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.pdb
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\Linq扩展方法1.genruntimeconfig.cache
+D:\Code\Studetyzk\Studetyzk\awaitasync1\Linq扩展方法1\obj\Debug\net6.0\ref\Linq扩展方法1.dll
