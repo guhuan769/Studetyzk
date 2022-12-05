@@ -6,7 +6,7 @@ namespace DI会传染
     internal class Program
     {
         static void Main(string[] args)
-        {
+        { 
             //DI有什么好处呢 万一有一天配置更到数据库读取 那么此时只需要重新注册一个数据库相关的后台服务即可 
             ServiceCollection serviceDescriptors = new ServiceCollection();
             serviceDescriptors.AddScoped<Controller>();
