@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F+UEa4rvpJZOhHpO7ayIdYZSjgsnhBbYtpIY/2wXpw//cGRYVeWmF7FZLOT1oJ4HAJ32AmrYrv7bLMw6GGM3tA==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConfigServices\\ConfigServices.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

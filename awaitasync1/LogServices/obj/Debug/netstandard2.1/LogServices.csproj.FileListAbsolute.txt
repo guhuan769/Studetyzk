@@ -1,0 +1,10 @@
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\bin\Debug\netstandard2.1\LogServices.deps.json
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\bin\Debug\netstandard2.1\LogServices.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\bin\Debug\netstandard2.1\LogServices.pdb
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.csproj.AssemblyReference.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.AssemblyInfoInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.AssemblyInfo.cs
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\LogServices\obj\Debug\netstandard2.1\LogServices.pdb

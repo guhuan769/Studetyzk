@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lwudsMErgJb3kd2aHoJeq+5ilfe4Bu/bxFz5IEESPQemW0H5FujLLV+IgJXSws5wEhRJCyYrCfztbZNbRzNvug==",
+  "dgSpecHash": "ain2FnrMUfeERAb1l+yn8PhlEU8/RlquSadltZq3KTXNibpEWvRF32nYnsX/l6SbBmQ9mG48upHQkbR/68R+qw==",
   "success": true,
   "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

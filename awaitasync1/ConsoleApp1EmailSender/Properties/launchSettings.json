@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ConsoleApp1EmailSender": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "service": "123ghhhh"
+      }
+    }
+  }
+}

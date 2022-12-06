@@ -1,0 +1,12 @@
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\bin\Debug\net6.0\ConfigServices.deps.json
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\bin\Debug\net6.0\ConfigServices.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\bin\Debug\net6.0\ConfigServices.pdb
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.csproj.AssemblyReference.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.AssemblyInfoInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.AssemblyInfo.cs
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\refint\ConfigServices.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ConfigServices.pdb
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConfigServices\obj\Debug\net6.0\ref\ConfigServices.dll
