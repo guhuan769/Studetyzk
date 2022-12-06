@@ -6,6 +6,7 @@ namespace ConsoleApp1ReadJson
         Microsoft.Extensions.Configuration
         Microsoft.Extensions.Configuration.Json 
         microsoft.extensions.configuration.binder.7.0.0.nupkg
+        microsoft.extensions.options.7.0.0.nupkg
         注意:一定要将Config.json文件 复制到输出目录 选择 如果较新则复制 不然就会出现无法读取
      */
     internal class Program

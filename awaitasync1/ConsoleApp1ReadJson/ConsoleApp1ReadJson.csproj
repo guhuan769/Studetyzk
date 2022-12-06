@@ -11,6 +11,7 @@
     <PackageReference Include="microsoft.extensions.configuration" Version="7.0.0" />
     <PackageReference Include="microsoft.extensions.configuration.binder" Version="7.0.0" />
     <PackageReference Include="microsoft.extensions.configuration.json" Version="7.0.0" />
+    <PackageReference Include="microsoft.extensions.options" Version="7.0.0" />
   </ItemGroup>
 
   <ItemGroup>

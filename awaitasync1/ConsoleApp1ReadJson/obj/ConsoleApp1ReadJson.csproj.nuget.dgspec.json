@@ -56,6 +56,10 @@
             "microsoft.extensions.configuration.json": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "microsoft.extensions.options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
