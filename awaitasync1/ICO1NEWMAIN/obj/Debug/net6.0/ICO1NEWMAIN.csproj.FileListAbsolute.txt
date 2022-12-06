@@ -16,3 +16,6 @@ D:\Code\Studetyzk\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\refint\ICO1
 D:\Code\Studetyzk\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\ICO1NEWMAIN.pdb
 D:\Code\Studetyzk\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\ICO1NEWMAIN.genruntimeconfig.cache
 D:\Code\Studetyzk\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\ref\ICO1NEWMAIN.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\ICO1NEWMAIN.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\refint\ICO1NEWMAIN.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ICO1NEWMAIN\obj\Debug\net6.0\ICO1NEWMAIN.pdb

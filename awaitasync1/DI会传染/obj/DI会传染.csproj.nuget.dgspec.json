@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj": {}
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj": {
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj",
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj",
         "projectName": "DI会传染",
-        "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj",
+        "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\DI会传染.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\DI会传染\\obj\\",
+        "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\DI会传染\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,7 +45,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.Extensions.DependencyInjection": {
+            "microsoft.extensions.dependencyinjection.abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
             }

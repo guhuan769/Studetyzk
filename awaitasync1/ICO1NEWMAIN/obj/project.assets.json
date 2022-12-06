@@ -111,11 +111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\ICO1NEWMAIN.csproj",
+      "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\ICO1NEWMAIN.csproj",
       "projectName": "ICO1NEWMAIN",
-      "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\ICO1NEWMAIN.csproj",
+      "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\ICO1NEWMAIN.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\obj\\",
+      "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ICO1NEWMAIN\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

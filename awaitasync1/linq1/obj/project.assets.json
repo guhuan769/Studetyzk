@@ -111,11 +111,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
+      "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
       "projectName": "linq1",
-      "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
+      "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\linq1\\obj\\",
+      "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\linq1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

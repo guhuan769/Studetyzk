@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "awwUhotOUbca++SYvZBVVlqDQX1xef0TMzz6M3cE+KUJMH3eFAYmi0LtlmveksYnqnkesXQ4LfPLQwFYKnurUA==",
+  "dgSpecHash": "xNKVtnzz5FdUhcluK1OQhr059/XiJzpjXrc7d3c5I5eEqvjGvVVa0emqHyhflhaxPGaf5HOhw5ICh9sjQuv+Uw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
+  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\linq1\\linq1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj": {}
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj": {
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj",
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj",
         "projectName": "取消请求1",
-        "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj",
+        "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\取消1\\取消请求1.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\取消1\\obj\\",
+        "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\取消1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

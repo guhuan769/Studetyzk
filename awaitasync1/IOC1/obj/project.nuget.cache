@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RaI1lsxEsgPbN6pBNzemkEFjWoLNdtH+1l/VHj+/XkjqOjnSJGDk434Ide0ObQRDxm69nBSuAtG5yzoU3yLUKw==",
+  "dgSpecHash": "V37AY0KZyehZVvlTIvRuqKbZGEgVudZ3A6BfSXNz5EjHEr3nHehRXEUAZ5ijE85v669jwo0/tJJDuzLKV+WGVw==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\IOC1\\IOC1.csproj",
+  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\IOC1\\IOC1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"

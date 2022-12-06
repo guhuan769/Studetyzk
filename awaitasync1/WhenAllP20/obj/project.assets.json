@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\WhenAllP20\\WhenAllP20.csproj",
+      "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\WhenAllP20\\WhenAllP20.csproj",
       "projectName": "WhenAllP20",
-      "projectPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\WhenAllP20\\WhenAllP20.csproj",
+      "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\WhenAllP20\\WhenAllP20.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "D:\\Code\\Studetyzk\\Studetyzk\\awaitasync1\\WhenAllP20\\obj\\",
+      "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\WhenAllP20\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
