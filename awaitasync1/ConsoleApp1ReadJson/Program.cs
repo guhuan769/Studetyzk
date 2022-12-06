@@ -19,8 +19,18 @@ namespace ConsoleApp1ReadJson
             Console.WriteLine($"name={name}");
             //string add = configurationRoot.GetSection("proxy:address").Value;
             //Console.WriteLine($"add={add}");
-            var get = configurationRoot.GetSection("proxy").Get<Proxy>();
+            //读取json节点映射到实体
+            //var get = configurationRoot.GetSection("proxy").Get<Proxy>();
+            //直接获取根节点json 读取整个JSON 配置映射到实体
+            var config = configurationRoot.Get<Config>();
         }
+    }
+
+    class Config
+    {
+        public string name { get; set; }
+        public int age { get; set; }
+        public Proxy proxy { get; set; }
     }
 
     class Proxy
