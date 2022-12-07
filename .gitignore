@@ -9,3 +9,5 @@
 /awaitasync1/没有async的异步方法/obj
 /awaitasync1/线程切换1/obj
 /awaitasync1/.vs/awaitasync1/FileContentIndex
+/awaitasync1/EFCore/bin/Debug/net6.0
+/awaitasync1/EFCore/obj
