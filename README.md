@@ -11,7 +11,7 @@ IOC
 
 ![image](https://user-images.githubusercontent.com/46043439/205600600-3fb0457d-87cd-441e-8f4a-e332aae4ea5e.png)  
 
-![Uploading image.png…]()  
+![image](https://user-images.githubusercontent.com/46043439/206098817-9fca54f0-3b6a-446b-95e0-294fce3dc15c.png)  
 
 
 GIT问题 fatal: unable to access 'https://github.com/guhuan769/Student.git/': OpenSSL SSL_connect: Connection was reset in connection to github.com:443  
@@ -19,4 +19,5 @@ GIT问题 fatal: unable to access 'https://github.com/guhuan769/Student.git/': O
 git config --global http.proxy 127.0.0.1:7890
 git config --global https.proxy 127.0.0.1:7890
 什么是ORM  
-![Uploading image.png…]()  
+ ![image](https://user-images.githubusercontent.com/46043439/206098869-e202f690-bb21-4fec-8f0a-f9c9d1a9c735.png)  
+
