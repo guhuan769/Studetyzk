@@ -24,6 +24,8 @@ namespace ConsoleApp1ReadJson
             //var get = configurationRoot.GetSection("proxy").Get<Proxy>();
             //直接获取根节点json 读取整个JSON 配置映射到实体
             var config = configurationRoot.Get<Config>();
+
+            //如果通过依赖注入来读配置会更加的优美 
         }
     }
 
