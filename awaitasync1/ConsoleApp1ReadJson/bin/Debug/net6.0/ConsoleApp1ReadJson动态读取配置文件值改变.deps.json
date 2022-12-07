@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "ConsoleApp1ReadJson/1.0.0": {
+      "ConsoleApp1ReadJson动态读取配置文件值改变/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.Configuration.Binder": "7.0.0",
@@ -15,7 +15,7 @@
           "Microsoft.Extensions.Options": "7.0.0"
         },
         "runtime": {
-          "ConsoleApp1ReadJson.dll": {}
+          "ConsoleApp1ReadJson动态读取配置文件值改变.dll": {}
         }
       },
       "Microsoft.Extensions.Configuration/7.0.0": {
@@ -191,7 +191,7 @@
     }
   },
   "libraries": {
-    "ConsoleApp1ReadJson/1.0.0": {
+    "ConsoleApp1ReadJson动态读取配置文件值改变/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

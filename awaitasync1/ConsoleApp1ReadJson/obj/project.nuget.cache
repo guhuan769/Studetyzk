@@ -1,14 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "aayVjgU1XgN/aaSJB8dvZgtJRnNQOnTNUUwnSnfakikqrEhHGL6Xhhr4bRIYZOWGVyPRPinHwcbHZb997cWTHA==",
+  "dgSpecHash": "BXTC4PNEZG+DBYUki5PV7mu5bdLa26TFbW3w9j+rkc+uBRWZ0CUiUmOUmk1rjNbO+LHaB/Liw6h4Wb5CwL5x9Q==",
   "success": true,
-  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson.csproj",
+  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson动态读取配置文件值改变.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0\\microsoft.extensions.configuration.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0\\microsoft.extensions.configuration.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.binder\\7.0.0\\microsoft.extensions.configuration.binder.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0\\microsoft.extensions.configuration.fileextensions.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0\\microsoft.extensions.configuration.json.7.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",

@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson.csproj": {}
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson动态读取配置文件值改变.csproj": {}
   },
   "projects": {
-    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson.csproj": {
+    "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson动态读取配置文件值改变.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson.csproj",
-        "projectName": "ConsoleApp1ReadJson",
-        "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson.csproj",
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson动态读取配置文件值改变.csproj",
+        "projectName": "ConsoleApp1ReadJson动态读取配置文件值改变",
+        "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\ConsoleApp1ReadJson动态读取配置文件值改变.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
         "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\awaitasync1\\ConsoleApp1ReadJson\\obj\\",
         "projectStyle": "PackageReference",

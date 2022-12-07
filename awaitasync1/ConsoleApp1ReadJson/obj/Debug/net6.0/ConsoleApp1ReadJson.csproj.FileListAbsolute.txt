@@ -27,3 +27,6 @@ D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\obj\Debug\net6.0\
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\obj\Debug\net6.0\ref\ConsoleApp1ReadJson.dll
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\bin\Debug\net6.0\Config.json
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\ConsoleApp1ReadJson\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
