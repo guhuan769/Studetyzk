@@ -16,6 +16,8 @@ namespace EFCore
         {
             //此地方解释明白  BOOK实体对应 T_Books这张表
             builder.ToTable("T_Books");
+            builder.Property(x=>x.Title).HasMaxLength(50).IsRequired();
+            builder.Property(x=>x.AuthorName).HasMaxLength(20).IsRequired();//IsRequired 可以为空
         }
     }
 }
