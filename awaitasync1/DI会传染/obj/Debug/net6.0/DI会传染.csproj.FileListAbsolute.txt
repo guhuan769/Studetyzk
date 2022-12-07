@@ -1,0 +1,5 @@
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\DI会传染\obj\Debug\net6.0\DI会传染.csproj.AssemblyReference.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\DI会传染\obj\Debug\net6.0\DI会传染.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\DI会传染\obj\Debug\net6.0\DI会传染.AssemblyInfoInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\DI会传染\obj\Debug\net6.0\DI会传染.AssemblyInfo.cs
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\DI会传染\obj\Debug\net6.0\DI会传染.csproj.CoreCompileInputs.cache

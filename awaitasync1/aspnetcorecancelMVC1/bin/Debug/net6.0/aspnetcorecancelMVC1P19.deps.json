@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "aspnetcorecancelMVC1P19/1.0.0": {
+        "runtime": {
+          "aspnetcorecancelMVC1P19.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "aspnetcorecancelMVC1P19/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

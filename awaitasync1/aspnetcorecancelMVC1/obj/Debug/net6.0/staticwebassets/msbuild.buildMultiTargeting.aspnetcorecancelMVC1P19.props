@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\aspnetcorecancelMVC1P19.props" />
+</Project>

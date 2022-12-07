@@ -1,8 +1,3 @@
-D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.csproj.AssemblyReference.cache
-D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.GeneratedMSBuildEditorConfig.editorconfig
-D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.AssemblyInfoInputs.cache
-D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.AssemblyInfo.cs
-D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.csproj.CoreCompileInputs.cache
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\MailServices.deps.json
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\MailServices.dll
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\MailServices.pdb
@@ -10,6 +5,11 @@ D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\ConfigS
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\LogServices.dll
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\ConfigServices.pdb
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\bin\Debug\net6.0\LogServices.pdb
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.csproj.AssemblyReference.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.AssemblyInfoInputs.cache
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.AssemblyInfo.cs
+D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.csproj.CoreCompileInputs.cache
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.csproj.CopyComplete
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\MailServices.dll
 D:\Code\Studetyzk111\Studetyzk\awaitasync1\MailServices\obj\Debug\net6.0\refint\MailServices.dll
