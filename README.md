@@ -18,3 +18,5 @@ GIT问题 fatal: unable to access 'https://github.com/guhuan769/Student.git/': O
 解决 https://blog.csdn.net/philosophyatmath/article/details/125070079 该问题是VPN可能自动将代理给更改了 只需要手动该城代理端口语法如下  
 git config --global http.proxy 127.0.0.1:7890
 git config --global https.proxy 127.0.0.1:7890
+什么是ORM  
+![Uploading image.png…]()  
