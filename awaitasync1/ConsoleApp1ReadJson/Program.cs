@@ -8,7 +8,11 @@ namespace ConsoleApp1ReadJson
         Microsoft.Extensions.Configuration.Json 
         microsoft.extensions.configuration.binder.7.0.0.nupkg
         microsoft.extensions.options.7.0.0.nupkg
+        安装 该包
+        microsoft.extensions.configuration.commandline.7.0.0.nupkg
         注意:一定要将Config.json文件 复制到输出目录 选择 如果较新则复制 不然就会出现无法读取
+
+
      */
     internal class Program
     {
@@ -21,7 +25,9 @@ namespace ConsoleApp1ReadJson
             //注册TEST2
             services.AddScoped<Test2>();
             ConfigurationBuilder configurationBuilder = new ConfigurationBuilder();
-            configurationBuilder.AddJsonFile("Config.json", optional: true, reloadOnChange: true);
+            //configurationBuilder.AddJsonFile("Config.json", optional: true, reloadOnChange: true);
+            //如果不用AddJsonFile 那么就只有使用 AddCommandLine
+            configurationBuilder.AddCommandLine(args);
             IConfigurationRoot configurationRoot = configurationBuilder.Build();
 
             //吧Config对象绑定到根节点上去
@@ -45,7 +51,7 @@ namespace ConsoleApp1ReadJson
                 //    Console.ReadKey();
                 //}
 
-               
+
                 while (true)
                 {
                     //所以需要使用scope 可以动态读取配置文件比如 系统根目录下得配置文件更改就会立即获取最新值 
@@ -88,5 +94,9 @@ namespace ConsoleApp1ReadJson
     public class Proxy
     {
         public string address { get; set; }
+
+        public string port { get; set; }
+
+        public int[] id { get; set; }
     }
 }

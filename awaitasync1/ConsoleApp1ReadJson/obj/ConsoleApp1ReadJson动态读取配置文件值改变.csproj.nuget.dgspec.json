@@ -53,6 +53,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "microsoft.extensions.configuration.commandline": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "microsoft.extensions.configuration.json": {
               "target": "Package",
               "version": "[7.0.0, )"
