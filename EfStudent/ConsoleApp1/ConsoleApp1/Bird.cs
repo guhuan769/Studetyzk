@@ -1,22 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace EFCORE
 {
-    [Table("T_Cat")]
-    public class Cat
+    public class Bird
     {
         public int Id { get; set; }
-        [Required]
-        [MaxLength(22)]
         public string Name { get; set; }
-
-        public int Age1 { get; set; }
-        public int Age2   { get; set; }
+        //[Key]
+        public string Number { get; set; }
     }
 }

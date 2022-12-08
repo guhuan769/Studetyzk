@@ -6,6 +6,9 @@ namespace ConsoleApp1
      Add-Migration Init  初始化
      Update-Database    更改数据库  
      Add-Migration AddBirth
+    数据库字段 如果存中文一般都用nvarchar 如果不存中文就使用varchar    
+    复合主键不建议使用
+    链式编程 :可以一直.下去 这种编程式非常流行  主要取决于返回值
      */
     internal class Program
     {

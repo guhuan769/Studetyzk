@@ -1,4 +1,5 @@
 ﻿using ConsoleApp1;
+using EFCORE;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,10 +11,12 @@ namespace EFCore
 {
     class MyDbContext : DbContext
     {
+        //public DbSet<Book> Books { get; set; } Books为表名
         public DbSet<Book> Books { get; set; }
         public DbSet<Person> Person { get; set; }
         public DbSet<Dog> Dog { get; set; }
         public DbSet<Cat> Cats { get; set; }
+        public DbSet<Bird> BirdHAHAHA { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
