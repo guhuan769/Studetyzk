@@ -22,5 +22,6 @@ git config --global https.proxy 127.0.0.1:7890
  ![image](https://user-images.githubusercontent.com/46043439/206098869-e202f690-bb21-4fec-8f0a-f9c9d1a9c735.png)  
 
 FluentAPI  
-![Uploading image.png…]()  
+![image](https://user-images.githubusercontent.com/46043439/206351720-e5079166-d9cd-437e-aa4d-739952597bb6.png)
+   
 
