@@ -1,4 +1,5 @@
 ﻿using EFCore;
+using EFCORE;
 
 namespace ConsoleApp1
 {
@@ -47,10 +48,20 @@ namespace ConsoleApp1
                 #endregion
 
                 #region 删除
-                //IQueryable<Book> books = myDbContext.Books.Where(x => x.Id == 1);
-                var b = myDbContext.Books.Single(x => x.Id == 1);
-                myDbContext.Remove(b);
+                ////IQueryable<Book> books = myDbContext.Books.Where(x => x.Id == 1);
+                //var b = myDbContext.Books.Single(x => x.Id == 1);
+                //myDbContext.Remove(b);
                 #endregion
+
+                #region RabbitInsert
+                Rabbit rabbit = new Rabbit() { Name="我来啦" };
+                Console.WriteLine(rabbit.Id);
+                myDbContext.Add(rabbit);
+                #endregion
+
+
+                //Guid guid = Guid.NewGuid();
+                //Console.WriteLine(guid);
                 int row = await myDbContext.SaveChangesAsync();//Update-Database 
                 Console.WriteLine($"影响行{row}");
             }
