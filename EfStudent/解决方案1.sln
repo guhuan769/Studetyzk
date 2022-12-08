@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCORE", "ConsoleApp1\ConsoleApp1\EFCORE.csproj", "{58EB1525-8463-404B-AE94-A3AA8506F030}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCORETEST2", "EFCORETEST2\EFCORETEST2.csproj", "{AD2E286A-35AF-463C-9F4C-C8966A56B0A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{58EB1525-8463-404B-AE94-A3AA8506F030}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58EB1525-8463-404B-AE94-A3AA8506F030}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58EB1525-8463-404B-AE94-A3AA8506F030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2E286A-35AF-463C-9F4C-C8966A56B0A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2E286A-35AF-463C-9F4C-C8966A56B0A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2E286A-35AF-463C-9F4C-C8966A56B0A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2E286A-35AF-463C-9F4C-C8966A56B0A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
