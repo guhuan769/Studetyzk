@@ -23,6 +23,6 @@ git config --global https.proxy 127.0.0.1:7890
 
 FluentAPI  
 ![image](https://user-images.githubusercontent.com/46043439/206351720-e5079166-d9cd-437e-aa4d-739952597bb6.png)
-   
+加快数据得查询速度用复合索引  聚集索引:物理存储按照索引排序非聚集索引:物理存储不按照索引排序优势与缺点聚集索引：插入数据时速度要慢（时间花费在“物理存储的排序”上，也就是首先要找到位置然后插入查询数据比非聚集数据的速度快
 ![image](https://user-images.githubusercontent.com/46043439/206356786-1649db39-d53a-4a1f-894b-eb4ec7b21227.png)  
 
