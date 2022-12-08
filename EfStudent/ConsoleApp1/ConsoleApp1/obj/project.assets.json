@@ -3515,9 +3515,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\EfStudent\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
-      "projectName": "ConsoleApp1",
-      "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\EfStudent\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "D:\\Code\\Studetyzk111\\Studetyzk\\EfStudent\\ConsoleApp1\\ConsoleApp1\\EFCORE.csproj",
+      "projectName": "EFCORE",
+      "projectPath": "D:\\Code\\Studetyzk111\\Studetyzk\\EfStudent\\ConsoleApp1\\ConsoleApp1\\EFCORE.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
       "outputPath": "D:\\Code\\Studetyzk111\\Studetyzk\\EfStudent\\ConsoleApp1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
