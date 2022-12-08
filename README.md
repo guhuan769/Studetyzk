@@ -31,5 +31,8 @@ FluentAPI
 
 备注:     对一张表来说,如果有一个复合索引 on   (col1,col2),就没有必要同时建立一个单索引 on col1;     如果查询条件需要,可以在已有单索引 on col1的情况下,添加复合索引on (col1,col2),对于效率有一定的提高     同时建立多字段(包含5、6个字段)的复合索引没有特别多的好处,相对而言,建立多个窄字段(仅包含一个,或顶多2个字段)的索引可以达到更好的效率和灵活性  
 ![image](https://user-images.githubusercontent.com/46043439/206356786-1649db39-d53a-4a1f-894b-eb4ec7b21227.png)  
+自动增长得字段并发性能很差 
 ![image](https://user-images.githubusercontent.com/46043439/206362869-d053807f-0874-46a4-9bae-f4534f5011c9.png)  
+guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果用GUID 设置为聚集索引得话会死得很惨咳咳咳....  
+![image](https://user-images.githubusercontent.com/46043439/206364789-42029699-cb21-4a0e-a621-c40b3561b6c5.png)  
 
