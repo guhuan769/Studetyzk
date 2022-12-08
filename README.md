@@ -34,5 +34,6 @@ FluentAPI
 自动增长得字段并发性能很差 
 ![image](https://user-images.githubusercontent.com/46043439/206362869-d053807f-0874-46a4-9bae-f4534f5011c9.png)  
 guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果用GUID 设置为聚集索引得话会死得很惨咳咳咳....  
+总结SQLSERVER中可以用GUID 但不要使用聚集索引 MYSQL彻底不要用GUID  
 ![image](https://user-images.githubusercontent.com/46043439/206364789-42029699-cb21-4a0e-a621-c40b3561b6c5.png)  
 
