@@ -11,6 +11,7 @@ namespace AOPDemo
         DbHelper dbHelper = new DbHelper();
         public  void Show()
         {
+            //静态代理
             Console.WriteLine("用户注册,提交信息");
             UserInfo userInfo = new UserInfo()
             {
@@ -19,6 +20,8 @@ namespace AOPDemo
                 Password= "Password",
             };
              dbHelper.Save(userInfo);
+
+            //动态
         }
     }
 }
