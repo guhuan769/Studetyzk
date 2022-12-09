@@ -5,7 +5,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
 [Mysql使用EF](#Mysql使用EF)
-[目前数据库用的最多的](#目前数据库用的最多的)
+[目前数据库用的最多的](#目前数据库用的最多的)  
 [数据库优化](#数据库优化)  
 # Studetyzk
 
@@ -66,3 +66,4 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
   ![image](https://user-images.githubusercontent.com/46043439/206620410-181d96cd-a420-433c-b975-876aadd25c2d.png)  
 
 #  数据库优化
+1  在查询的时候经量不要用select * from xx 去查询 一定要用什么字段写什么字段 select ID,NAME FROM DUAL 
