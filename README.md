@@ -43,3 +43,11 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
   
   
 # EFCORE如何通用查看SQL语句  
+## 支持所有数据库ORM框架查看SQL  
+   1 标准日志 
+   ![image](https://user-images.githubusercontent.com/46043439/206613293-2fa8ed0d-85d3-48a4-994c-447d97d3d723.png)  
+   2 简单日志  
+   ![image](https://user-images.githubusercontent.com/46043439/206614866-d719c611-085f-46ff-8b84-5dc147eb185e.png)  
+   ![image](https://user-images.githubusercontent.com/46043439/206616744-cf247988-659f-4b65-a01d-3ca2a899387e.png)  
+   以上功能 对应EF 项目 EFCORETEST2可以查看详细操作  
+
