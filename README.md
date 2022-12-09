@@ -5,6 +5,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
 [Mysql使用EF](#Mysql使用EF)
+[目前数据库用的最多的](#目前数据库用的最多的)
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -58,3 +59,5 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
 # Mysql使用EF
  只需要嵌入Pomelo.EntityFrameworkCore.Mysql该 NUGET包即可
 ![image](https://user-images.githubusercontent.com/46043439/206619037-cd5e8c08-0bb6-43a7-ab2d-a5141d59c871.png)
+# 目前数据库用的最多的  
+  postgresql  Mysql 由于被Oracle收购 出了社区版与收费版所以目前用的少 传统数据库 Oracle 很少人用了 sqlserver   
