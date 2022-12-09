@@ -6,6 +6,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
 [Mysql使用EF](#Mysql使用EF)
 [目前数据库用的最多的](#目前数据库用的最多的)
+[数据库优化](#数据库优化)  
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -64,3 +65,4 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
   Mysql 由于被Oracle收购 出了社区版与收费版所以目前用的少 传统数据库 Oracle 很少人用了 sqlserver   
   ![image](https://user-images.githubusercontent.com/46043439/206620410-181d96cd-a420-433c-b975-876aadd25c2d.png)  
 
+#  数据库优化
