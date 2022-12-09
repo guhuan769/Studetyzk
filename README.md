@@ -4,6 +4,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [Studetyzk](#Studetyzk)  
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
+[Mysql使用EF](#Mysql使用EF)
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -41,8 +42,7 @@ FluentAPI
 guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果用GUID 设置为聚集索引得话会死得很惨咳咳咳....  
 总结SQLSERVER中可以用GUID 但不要使用聚集索引 MYSQL彻底不要用GUID  
 ![image](https://user-images.githubusercontent.com/46043439/206364789-42029699-cb21-4a0e-a621-c40b3561b6c5.png)  
-  
-  
+ 
 # EFCORE如何通用查看SQL语句  
 ## 支持所有数据库ORM框架查看SQL  
    1 标准日志 
@@ -55,3 +55,6 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
 ![image](https://user-images.githubusercontent.com/46043439/206617263-c71d3f97-c31a-4cdd-b355-e3097ee4105b.png)  
 ![image](https://user-images.githubusercontent.com/46043439/206618228-1869e2f5-7dd5-4c50-825c-f662449422fb.png)  
 
+# Mysql使用EF
+ 只需要嵌入EntityFramwork.Mysql该 NUGET包即可
+![image](https://user-images.githubusercontent.com/46043439/206619037-cd5e8c08-0bb6-43a7-ab2d-a5141d59c871.png)
