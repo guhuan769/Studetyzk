@@ -7,6 +7,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [Mysql使用EF](#Mysql使用EF)
 [目前数据库用的最多的](#目前数据库用的最多的)  
 [数据库优化](#数据库优化)  
+[EFCore性能](#EFCore性能)
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -69,3 +70,7 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
 1  在查询的时候经量不要用select * from xx 去查询 一定要用什么字段写什么字段 select ID,NAME FROM DUAL 
 EF 设置外键属性  
 ![image](https://user-images.githubusercontent.com/46043439/206647834-cfa2897b-e0f0-49cc-a1fa-ed29aaa49cca.png)  
+
+# EFCore性能  
+ 重:大部分的查询比绝大多数的程序员写出的SQL 效率要高
+    少部分可能不那么效率,但影响不大 特殊的SQL语句可能影响瓶顶,此时就需要特殊优化 (优化方法或者手写SQL语句都OK)  
