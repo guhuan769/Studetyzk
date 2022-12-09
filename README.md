@@ -1,6 +1,13 @@
 DI包 Microsoft.Extensions.DependencyInjection
-GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git  
+GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git   
+## 目录  
+[Studetyzk](#Studetyzk)  
+[EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
+[EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
+[Mysql使用EF](#Mysql使用EF)
+[目前数据库用的最多的](#目前数据库用的最多的)
 # Studetyzk
+
 LLinq 分组 投影 计算平均工资
 ![image](https://user-images.githubusercontent.com/46043439/205556966-5f48b9a8-56e8-4304-93a3-ed765c867c29.png)  
 IOC  
@@ -36,4 +43,24 @@ FluentAPI
 guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果用GUID 设置为聚集索引得话会死得很惨咳咳咳....  
 总结SQLSERVER中可以用GUID 但不要使用聚集索引 MYSQL彻底不要用GUID  
 ![image](https://user-images.githubusercontent.com/46043439/206364789-42029699-cb21-4a0e-a621-c40b3561b6c5.png)  
+ 
+# EFCORE如何通用查看SQL语句  
+## 支持所有数据库ORM框架查看SQL  
+   1 标准日志 
+   ![image](https://user-images.githubusercontent.com/46043439/206613293-2fa8ed0d-85d3-48a4-994c-447d97d3d723.png)  
+   2 简单日志  
+   ![image](https://user-images.githubusercontent.com/46043439/206614866-d719c611-085f-46ff-8b84-5dc147eb185e.png)  
+   ![image](https://user-images.githubusercontent.com/46043439/206616744-cf247988-659f-4b65-a01d-3ca2a899387e.png)  
+   以上功能 对应EF 项目 EFCORETEST2可以查看详细操作  
+#  EFCORE生成不同数据库的Migration  
+![image](https://user-images.githubusercontent.com/46043439/206617263-c71d3f97-c31a-4cdd-b355-e3097ee4105b.png)  
+![image](https://user-images.githubusercontent.com/46043439/206618228-1869e2f5-7dd5-4c50-825c-f662449422fb.png)  
+
+# Mysql使用EF
+ 只需要嵌入Pomelo.EntityFrameworkCore.Mysql该 NUGET包即可
+![image](https://user-images.githubusercontent.com/46043439/206619037-cd5e8c08-0bb6-43a7-ab2d-a5141d59c871.png)
+# 目前数据库用的最多的  
+  postgresql(该数据库开发者 主要是微软官方的主程序员开发制作Npgsql) 安装: Install-Package Npgsql.EntityFrameworkCore.PostgreSQL  NuGet\Install-Package Npgsql -Version 7.0.0 下载本地包:https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL  
+  Mysql 由于被Oracle收购 出了社区版与收费版所以目前用的少 传统数据库 Oracle 很少人用了 sqlserver   
+  ![image](https://user-images.githubusercontent.com/46043439/206620410-181d96cd-a420-433c-b975-876aadd25c2d.png)  
 
