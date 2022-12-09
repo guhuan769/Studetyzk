@@ -8,6 +8,8 @@ using System.Threading.Tasks;
 
 namespace EFCORETEST2
 {
+
+    /**/
     public class MyDbDataContext : DbContext
     {
         //可以将执行的linq 转换成SQL语句打印到控制台
