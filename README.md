@@ -1,6 +1,6 @@
 DI包 Microsoft.Extensions.DependencyInjection
-GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git 
-##目录  
+GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git   
+## 目录  
 [Studetyzk](#Studetyzk)  
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
