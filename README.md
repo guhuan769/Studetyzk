@@ -3,6 +3,7 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 ##目录  
 [Studetyzk](#Studetyzk)  
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
+[EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -50,4 +51,7 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
    ![image](https://user-images.githubusercontent.com/46043439/206614866-d719c611-085f-46ff-8b84-5dc147eb185e.png)  
    ![image](https://user-images.githubusercontent.com/46043439/206616744-cf247988-659f-4b65-a01d-3ca2a899387e.png)  
    以上功能 对应EF 项目 EFCORETEST2可以查看详细操作  
+#  EFCORE生成不同数据库的Migration  
+![image](https://user-images.githubusercontent.com/46043439/206617263-c71d3f97-c31a-4cdd-b355-e3097ee4105b.png)  
+![image](https://user-images.githubusercontent.com/46043439/206618228-1869e2f5-7dd5-4c50-825c-f662449422fb.png)  
 
