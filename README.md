@@ -56,5 +56,5 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
 ![image](https://user-images.githubusercontent.com/46043439/206618228-1869e2f5-7dd5-4c50-825c-f662449422fb.png)  
 
 # Mysql使用EF
- 只需要嵌入EntityFramwork.Mysql该 NUGET包即可
+ 只需要嵌入Pomelo.EntityFrameworkCore.Mysql该 NUGET包即可
 ![image](https://user-images.githubusercontent.com/46043439/206619037-cd5e8c08-0bb6-43a7-ab2d-a5141d59c871.png)
