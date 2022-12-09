@@ -5,7 +5,9 @@ GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/
 [EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 [EFCORE生成不同数据库的Migration](#EFCORE生成不同数据库的Migration)  
 [Mysql使用EF](#Mysql使用EF)
-[目前数据库用的最多的](#目前数据库用的最多的)
+[目前数据库用的最多的](#目前数据库用的最多的)  
+[数据库优化](#数据库优化)  
+[EFCore性能](#EFCore性能)
 # Studetyzk
 
 LLinq 分组 投影 计算平均工资
@@ -63,4 +65,15 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
   postgresql(该数据库开发者 主要是微软官方的主程序员开发制作Npgsql) 安装: Install-Package Npgsql.EntityFrameworkCore.PostgreSQL  NuGet\Install-Package Npgsql -Version 7.0.0 下载本地包:https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL  
   Mysql 由于被Oracle收购 出了社区版与收费版所以目前用的少 传统数据库 Oracle 很少人用了 sqlserver   
   ![image](https://user-images.githubusercontent.com/46043439/206620410-181d96cd-a420-433c-b975-876aadd25c2d.png)  
+
+#  数据库优化
+1  在查询的时候经量不要用select * from xx 去查询 一定要用什么字段写什么字段 select ID,NAME FROM DUAL 
+EF 设置外键属性  
+![image](https://user-images.githubusercontent.com/46043439/206647834-cfa2897b-e0f0-49cc-a1fa-ed29aaa49cca.png)  
+
+# EFCore性能  
+ 重:大部分的查询比绝大多数的程序员写出的SQL 效率要高
+    少部分可能不那么效率,但影响不大 特殊的SQL语句可能影响瓶顶,此时就需要特殊优化 (优化方法或者手写SQL语句都OK)  
+![image](https://user-images.githubusercontent.com/46043439/206653317-c288c6a7-3fd8-4a4c-80d4-6cea557b51d5.png)  
+![image](https://user-images.githubusercontent.com/46043439/206653932-a3f3cd65-1285-4c12-b242-dcf1e370e95b.png)  
 
