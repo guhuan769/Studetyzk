@@ -60,7 +60,7 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
  只需要嵌入Pomelo.EntityFrameworkCore.Mysql该 NUGET包即可
 ![image](https://user-images.githubusercontent.com/46043439/206619037-cd5e8c08-0bb6-43a7-ab2d-a5141d59c871.png)
 # 目前数据库用的最多的  
-  postgresql(该数据库开发者 主要是微软官方的主程序员开发制作Npgsql) 安装: Install-Package Npgsql.EntityFrameworkCore.PostgreSQL  NuGet\Install-Package Npgsql -Version 7.0.0
+  postgresql(该数据库开发者 主要是微软官方的主程序员开发制作Npgsql) 安装: Install-Package Npgsql.EntityFrameworkCore.PostgreSQL  NuGet\Install-Package Npgsql -Version 7.0.0 下载本地包:https://www.nuget.org/packages/Npgsql.EntityFrameworkCore.PostgreSQL  
   Mysql 由于被Oracle收购 出了社区版与收费版所以目前用的少 传统数据库 Oracle 很少人用了 sqlserver   
   ![image](https://user-images.githubusercontent.com/46043439/206620410-181d96cd-a420-433c-b975-876aadd25c2d.png)  
 
