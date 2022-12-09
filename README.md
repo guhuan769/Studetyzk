@@ -67,3 +67,5 @@ guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果
 
 #  数据库优化
 1  在查询的时候经量不要用select * from xx 去查询 一定要用什么字段写什么字段 select ID,NAME FROM DUAL 
+EF 设置外键属性  
+![image](https://user-images.githubusercontent.com/46043439/206647834-cfa2897b-e0f0-49cc-a1fa-ed29aaa49cca.png)  
