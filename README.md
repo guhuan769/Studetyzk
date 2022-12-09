@@ -1,6 +1,10 @@
 DI包 Microsoft.Extensions.DependencyInjection
-GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git  
+GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git 
+##目录  
+[Studetyzk](#Studetyzk)  
+[EFCORE如何通用查看SQL语句](#EFCORE如何通用查看SQL语句)  
 # Studetyzk
+
 LLinq 分组 投影 计算平均工资
 ![image](https://user-images.githubusercontent.com/46043439/205556966-5f48b9a8-56e8-4304-93a3-ed765c867c29.png)  
 IOC  
@@ -36,4 +40,6 @@ FluentAPI
 guid 如果设置为聚集索引得话 查询效率会非常低  Mysql ID 如果用GUID 设置为聚集索引得话会死得很惨咳咳咳....  
 总结SQLSERVER中可以用GUID 但不要使用聚集索引 MYSQL彻底不要用GUID  
 ![image](https://user-images.githubusercontent.com/46043439/206364789-42029699-cb21-4a0e-a621-c40b3561b6c5.png)  
-
+  
+  
+# EFCORE如何通用查看SQL语句  
