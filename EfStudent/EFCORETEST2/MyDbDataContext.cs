@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +10,24 @@ namespace EFCORETEST2
 {
     public class MyDbDataContext : DbContext
     {
+        //可以将执行的linq 转换成SQL语句打印到控制台
+        private static ILoggerFactory loggerFactory = LoggerFactory.Create(b => b.AddConsole());
         public DbSet<Person> Person { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
             optionsBuilder.UseSqlServer("Server=.;Database=Demo3;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
+            //optionsBuilder.UseLoggerFactory(loggerFactory);
+            ////2 简单日志 优点 不用引入第三方框架
+            //optionsBuilder.LogTo(msg =>
+            //{
+            //    //只输出SQL语句
+            //    if (!msg.Contains("CommandExecuting")) return;
+            //    Console.WriteLine(msg);
+            //});
+
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
