@@ -74,3 +74,6 @@ EF 设置外键属性
 # EFCore性能  
  重:大部分的查询比绝大多数的程序员写出的SQL 效率要高
     少部分可能不那么效率,但影响不大 特殊的SQL语句可能影响瓶顶,此时就需要特殊优化 (优化方法或者手写SQL语句都OK)  
+![image](https://user-images.githubusercontent.com/46043439/206653317-c288c6a7-3fd8-4a4c-80d4-6cea557b51d5.png)  
+![image](https://user-images.githubusercontent.com/46043439/206653932-a3f3cd65-1285-4c12-b242-dcf1e370e95b.png)  
+
