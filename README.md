@@ -1,3 +1,4 @@
+https://www.bilibili.com/video/BV1pK41137He?p=66&vd_source=d8a4c09db5e33f3ebcb6438e6fe66cd7  P66未看完 此处由于时间关系跳看时间充足 在从66看
 DI包 Microsoft.Extensions.DependencyInjection
 GIT 指定分支拉去代码语法 git clone -b gh https://github.com/guhuan769/Studetyzk.git   
 ## 目录  
