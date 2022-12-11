@@ -16,7 +16,7 @@ namespace EFCoreOneToMany
             builder.Property(a => a.Message).IsRequired();
 
             //一个对多  IsRequired(不允许为空就.该方法) 创建主外键  ArticleID为主键 Comment表的AritcleID为外键
-            //设置 HasForeignKey 外键属性 对应实体
+            //设置 HasForeignKey 额外的外键属性 对应实体
             builder.HasOne<Article>(x => x.Article).WithMany(a => a.Comments).HasForeignKey(x => x.ArticleId).IsRequired();
 
         }
