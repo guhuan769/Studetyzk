@@ -25,3 +25,5 @@
 /WPF/WPFCustomControl/WPFCustomControl/Tests/WPFCustomControl.Modules.ModuleName.Tests/obj
 /WPF/WPFCustomControl/WPFCustomControl/WPFCustomControl/obj
 /WPF/WPFCustomControl/WPFCustomControl/WPFCustomControl.Core/obj
+/EfStudent/自引用结构树/bin/Debug/net6.0
+/EfStudent/自引用结构树/obj
