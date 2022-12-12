@@ -40,6 +40,8 @@ namespace 自引用结构树
                 var org = ctx.OrgUnits.Single(o => o.Parent == null);//寻找根节点
                 Console.WriteLine(org.Name);
                 var dd = PrintChildren(1, ctx, org).ToList();
+                //高效更新
+                await ctx.Database.ExecuteSqlRawAsync("");
             }
             #endregion
 
