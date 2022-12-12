@@ -1,4 +1,6 @@
 ﻿using EFCORETEST2;
+using Microsoft.EntityFrameworkCore;
+using System.Diagnostics.Tracing;
 using 自引用结构树.Model;
 
 namespace 自引用结构树
@@ -33,12 +35,35 @@ namespace 自引用结构树
             //保存数据库
             using (MyDbDataContext ctx = new MyDbDataContext())
             {
-                ctx.OrgUnits.Add(orgUnitsRoot);
-                await ctx.SaveChangesAsync();
+                //ctx.OrgUnits.Add(orgUnitsRoot);
+                //await ctx.SaveChangesAsync();
+                var org = ctx.OrgUnits.Single(o => o.Parent == null);//寻找根节点
+                Console.WriteLine(org.Name);
+                var dd = PrintChildren(1, ctx, org).ToList();
             }
             #endregion
 
 
+        }
+
+        /// <summary>
+        /// 缩进打印parent的所有的子节点
+        /// </summary>
+        /// <param name="identLevel"></param>
+        /// <param name="ctx"></param>
+        /// <param name="org"></param>
+        static IQueryable<OrgUnits> PrintChildren(int identLevel, MyDbDataContext ctx, OrgUnits parent)
+        {
+            IQueryable<OrgUnits> children = ctx.OrgUnits.Where(x => x.Parent == parent);
+
+            foreach (var child in children)
+            {
+                //if (identLevel == 0)
+                //    Console.WriteLine(new String('\t', identLevel) + parent.Name);
+                Console.WriteLine(new String('\t', identLevel) + child.Name);
+                PrintChildren(identLevel + 1, ctx, child);//打印以我为父节点的子节点
+            }
+            return children;
         }
     }
 }

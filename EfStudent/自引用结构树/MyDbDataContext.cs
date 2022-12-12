@@ -23,12 +23,12 @@ namespace EFCORETEST2
             optionsBuilder.UseSqlServer("Server=.;Database=Demo10;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
             //optionsBuilder.UseLoggerFactory(loggerFactory);
             ////2 简单日志 优点 不用引入第三方框架
-            optionsBuilder.LogTo(msg =>
-            {
-                //只输出SQL语句
-                if (!msg.Contains("CommandExecuting")) return;
-                Console.WriteLine(msg);
-            });
+            //optionsBuilder.LogTo(msg =>
+            //{
+            //    //只输出SQL语句
+            //    if (!msg.Contains("CommandExecuting")) return;
+            //    Console.WriteLine(msg);
+            //});
 
 
         }
