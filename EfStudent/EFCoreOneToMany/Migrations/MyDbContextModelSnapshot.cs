@@ -71,6 +71,54 @@ namespace EFCoreOneToMany.Migrations
                     b.ToTable("T_Comments", (string)null);
                 });
 
+            modelBuilder.Entity("EFCoreOneToMany.ManyToOne.Leave", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<long>("ApproverIdId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Remark")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<long>("RequesterIdId")
+                        .HasColumnType("bigint");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ApproverIdId");
+
+                    b.HasIndex("RequesterIdId");
+
+                    b.ToTable("T_Leave", (string)null);
+                });
+
+            modelBuilder.Entity("EFCoreOneToMany.ManyToOne.User", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bigint");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<long>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("T_User", (string)null);
+                });
+
             modelBuilder.Entity("EFCoreOneToMany.Comment", b =>
                 {
                     b.HasOne("EFCoreOneToMany.Article", "Article")
@@ -80,6 +128,25 @@ namespace EFCoreOneToMany.Migrations
                         .IsRequired();
 
                     b.Navigation("Article");
+                });
+
+            modelBuilder.Entity("EFCoreOneToMany.ManyToOne.Leave", b =>
+                {
+                    b.HasOne("EFCoreOneToMany.ManyToOne.User", "ApproverId")
+                        .WithMany()
+                        .HasForeignKey("ApproverIdId")
+                        .OnDelete(DeleteBehavior.Restrict)
+                        .IsRequired();
+
+                    b.HasOne("EFCoreOneToMany.ManyToOne.User", "RequesterId")
+                        .WithMany()
+                        .HasForeignKey("RequesterIdId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ApproverId");
+
+                    b.Navigation("RequesterId");
                 });
 
             modelBuilder.Entity("EFCoreOneToMany.Article", b =>
