@@ -21,6 +21,7 @@
             <Button Margin="5" Content="打开按钮B" Command="{Binding OpenCommand}"  CommandParameter="ViewB" ></Button>
             <Button Margin="5" Content="打开按钮C" Command="{Binding OpenCommand}"  CommandParameter="ViewC" ></Button>
             <Button Margin="5" Content="返回上一步" Command="{Binding BackCommand}"  CommandParameter="ViewC" ></Button>
+            <Button Margin="5" Content="弹窗" Command="{Binding ChatCommand}"  CommandParameter="ChatView" ></Button>
         </StackPanel>
         <!--指定区域名 prism:RegionManager.RegionName="" -->
         <ContentControl  Grid.Row="1" prism:RegionManager.RegionName="ContentRegion" ></ContentControl>

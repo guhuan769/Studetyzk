@@ -20,6 +20,8 @@ namespace prismDemo1
         {
             //配置大于约定 约定就是  ViewA 为前缀  拼接 ViewAViewModel
             //下面这句代码ViewA对应ViewAViewModel
+
+            containerRegistry.RegisterForNavigation<ChatView, ChatViewViewModel>();
             containerRegistry.RegisterForNavigation<ViewA, ViewAViewModel>();
         }
     }

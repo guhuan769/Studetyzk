@@ -48,7 +48,7 @@ namespace prismDemo
             /*
                 ModulePath 当前文件夹读取配置
             D:\Code\Studetyzk111\Studetyzk\WPF\prismDemo\prismDemo1\bin\Debug\net6.0-windows 在项目根目录下面创建文件夹 Modules
-
+            ..\prismDemo\bin\Debug\net6.0-windows\Modules
              */
             IModuleCatalog mc = new DirectoryModuleCatalog() { ModulePath = $@"{AppDomain.CurrentDomain.BaseDirectory}\Modules\Debug" };
             return mc;
