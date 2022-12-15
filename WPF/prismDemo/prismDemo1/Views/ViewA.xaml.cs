@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace prismDemo.Views
+namespace prismDemo1.Views
 {
     /// <summary>
     /// ViewA.xaml 的交互逻辑

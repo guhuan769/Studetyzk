@@ -13,10 +13,10 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace prismDemo.Views
+namespace prismDemo2.Views
 {
     /// <summary>
-    /// ViewB.xaml 的交互逻辑
+    /// ViewA.xaml 的交互逻辑
     /// </summary>
     public partial class ViewB : UserControl
     {

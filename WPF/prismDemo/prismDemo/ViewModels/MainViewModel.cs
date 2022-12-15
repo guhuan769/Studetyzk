@@ -13,8 +13,12 @@ namespace prismDemo.ViewModels
     public class MainViewModel : BindableBase
     {
         private readonly IRegionManager regionManager;
+        //声明区域导航日志
+        public IRegionNavigationJournal region;
 
         public DelegateCommand<string> OpenCommand { get; private set; }
+
+        public DelegateCommand BackCommand { get; private set; }
 
         //private object body;
 
@@ -30,17 +34,40 @@ namespace prismDemo.ViewModels
         public MainViewModel(IRegionManager regionManager)
         {
             OpenCommand = new DelegateCommand<string>(Open);
+            BackCommand = new DelegateCommand(Back);
             this.regionManager = regionManager;
+        }
+
+        private void Back()
+        {
+            if (region == null)
+                return;
+            //能不能返回上一步
+            if (region.CanGoBack)
+                //上一步
+                region.GoBack();
+
+            //region.GoForward();
         }
 
         private void Open(string obj)
         {
+            //是否可以通过导航属性传递参数过去 导航参数
+            NavigationParameters keyValuePairs = new NavigationParameters();
+            keyValuePairs.Add("Title", "Hello!");
             //Regions["ContentRegion"] 找到主页面的ContentRegion   设置目标 RequestNavigate 设置什么内容进去 
             //因为此处RequestNavigate("ViewA");肯定十找不到的所以 就要使用依赖注入的形式在app.cs里面注册
             //打开依赖注入的模块
             //首先通过IRegionManager接口获取当全局定义的可用区域 ， 往这个区域动态设置内容
             //设置内容的方式通过依赖注入的形式
-            regionManager.Regions["ContentRegion"].RequestNavigate(obj);
+
+            regionManager.Regions["ContentRegion"].RequestNavigate(obj, callBack =>
+            {
+                if ((bool)callBack.Result)
+                {
+                    region = callBack.Context.NavigationService.Journal;
+                }
+            }, keyValuePairs);
             //switch (obj)
             //{
             //    case "ViewA":
