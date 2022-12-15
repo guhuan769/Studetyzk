@@ -1,5 +1,6 @@
 ﻿using Prism.DryIoc;
 using Prism.Ioc;
+using prismDemo.Views;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -18,12 +19,17 @@ namespace prismDemo
         #region 默认实现
         protected override Window CreateShell()
         {
-            return Container.Resolve<MainWindow>();
+            return Container.Resolve<MainView>();
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
         {
-        } 
+            //注册（依赖注入） 注入ViewA
+            //containerRegistry.RegisterForNavigation<ViewA>("View"); 自定义名称 如果不写就是默认 注册三个模块
+            containerRegistry.RegisterForNavigation<ViewA>();
+            containerRegistry.RegisterForNavigation<ViewB>();
+            containerRegistry.RegisterForNavigation<ViewC>();
+        }
         #endregion
     }
 }
