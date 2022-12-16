@@ -29,8 +29,6 @@ namespace EFCORETEST2
             //    if (!msg.Contains("CommandExecuting")) return;
             //    Console.WriteLine(msg);
             //});
-
-
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
