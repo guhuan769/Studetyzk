@@ -12,6 +12,8 @@ namespace EFCoreOneToMany
         public string Title { get; set; }
         public string Content { get; set; }
 
+        public double Price { get; set; }
+
         public string Message { get; set; }
         //该属性在EF中的叫法为导航属性
         public List<Comment> Comments { get; set; } = new List<Comment>();

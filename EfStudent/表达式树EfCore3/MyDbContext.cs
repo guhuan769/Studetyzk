@@ -1,25 +1,19 @@
-﻿using EFCoreOneToMany.ManyToOne;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EFCoreOneToMany
+namespace 表达式树EfCore3
 {
-    public class MyDbContext: DbContext
+    public class MyDbContext : DbContext
     {
-
-        public DbSet<Article> Articles { get; set; }
-        public DbSet<Comment> Comments { get; set; }
-        public DbSet<User> Users { get; set; }
-        public DbSet<Leave> Leaves { get; set; }
-
+        public DbSet<Book> Books { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Server=.;Database=OneToMany;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer("Server=.;Database=TwoOneNice;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=True");
             //打印SQL语句
             optionsBuilder.LogTo(msg =>
             {

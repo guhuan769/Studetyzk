@@ -82,6 +82,19 @@ namespace EFCoreOneToMany
                 //Console.WriteLine(comment.Id);
                 #endregion
 
+                #region 批量删除更新
+                //int t = await ctx.Articles.ExecuteDeleteAsync();
+                //Console.WriteLine(t);
+
+                await ctx.Articles
+   // .//Where(t => t.Comments.All(e => e.Message.Contains("标题")))
+    .ExecuteUpdateAsync(s => s.SetProperty(t => t.Message, t => t.Message + " 草泥马"));
+                //foreach (var item in ctx.Articles)
+                //{
+                //    item.Price = item.Price + 1;
+                //}
+                #endregion
+
 
                 await ctx.SaveChangesAsync();
             }
