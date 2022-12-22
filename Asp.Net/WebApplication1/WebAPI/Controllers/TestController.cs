@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using ClassLibrary1;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Model;
 
@@ -8,6 +9,40 @@ namespace WebAPI.Controllers
     [ApiController]
     public class TestController : ControllerBase
     {
+        private readonly Calculator calculator;
+        private readonly Class1 class1;
+        #region 通过构造函数注入服务之外
+        public TestController(Calculator calculator, Class1 class1)
+        {
+            this.calculator = calculator;
+            this.class1 = class1;
+        }
+        #endregion
+        //ResponseCache 响应缓存 是启用客户端的响应缓存
+        //如果想启用服务端的响应缓存
+        [ResponseCache(Duration = 20)]
+        [HttpGet]
+        public DateTime NowTime()
+        {
+            return DateTime.Now;
+        }
+        [HttpGet]
+        public int Add()
+        {
+            string aa = class1.SayHi();
+            Console.WriteLine(aa);
+            return calculator.Add(3, 9) ;
+        }
+        /// <summary>
+        /// 通过方法注入只需要在服务参数前加FromServices即可
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public int Add1([FromServices] TestService testService, int x)
+        {
+            return testService.Count + x;
+        }
+
         [HttpGet]
         public Person GetPerson()
         {
@@ -26,7 +61,7 @@ namespace WebAPI.Controllers
         }
 
         [HttpGet("students/school/{schoolName}/class/{classNo}")]
-        public Person GetStudent(string schoolName, [FromRoute(Name = "classNo")]int classNum)
+        public Person GetStudent(string schoolName, [FromRoute(Name = "classNo")] int classNum)
         {
             return new Person(1, $"{schoolName}", 99);
         }
