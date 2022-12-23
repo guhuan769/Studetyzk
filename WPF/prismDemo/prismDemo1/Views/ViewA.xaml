@@ -7,8 +7,13 @@
              xmlns:prism ="http://prismlibrary.com/"
              prism:ViewModelLocator.AutoWireViewModel="True"
              mc:Ignorable="d" 
+             xmlns:local1="clr-namespace:prismDemo1.Converter"
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <local1:ForeColorConverter x:Key="foreColor"></local1:ForeColorConverter>
+    </UserControl.Resources>
     <Grid>
         <TextBlock Text="{Binding Title}" FontSize="80"/>
+        <TextBox  Text="{Binding State,Converter={StaticResource foreColor},Mode=OneWay}" Height="200" Width="auto" FontSize="80"/>
     </Grid>
 </UserControl>

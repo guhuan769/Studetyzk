@@ -30,6 +30,22 @@ namespace prismDemo1.ViewModels
             set { title = value; RaisePropertyChanged(); }
         }
 
+        /// <summary>
+        /// 状态
+        /// </summary>
+        private int state;
+
+        public int State
+        {
+            get
+            {
+                return state;
+            }
+            set
+            {
+                state = value; RaisePropertyChanged();
+            }
+        }
 
         /// <summary>
         /// 每次重新导航的时候该实例是否重新创建? 是否重用原来的实例

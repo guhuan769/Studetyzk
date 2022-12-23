@@ -40,6 +40,9 @@ namespace prismDemo1.ViewModels
             RequestClose?.Invoke(new DialogResult(ButtonResult.No));
         }
 
+      
+
+
         public string Title { get; set; }
 
         public event Action<IDialogResult> RequestClose;
