@@ -30,6 +30,14 @@ builder.Services.AddScoped<TestService>();
 //增加多少个服务都OK
 var asms = ReflectionHelper.GetAllReferencedAssemblies();
 builder.Services.RunModuleInitializers(asms);
+///注册MemoryCache缓存服务
+builder.Services.AddMemoryCache();
+
+///添加Redis 
+builder.Services.AddStackExchangeRedisCache(options => {
+    options.Configuration = "localhost";
+    options.InstanceName= "cache1_";//避免混乱
+});
 #endregion
 
 var app = builder.Build();
