@@ -1,0 +1,17 @@
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\SenderTest1.exe
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\SenderTest1.deps.json
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\SenderTest1.runtimeconfig.json
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\SenderTest1.dll
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\SenderTest1.pdb
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.csproj.AssemblyReference.cache
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.AssemblyInfoInputs.cache
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.AssemblyInfo.cs
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.csproj.CoreCompileInputs.cache
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.csproj.CopyComplete
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.dll
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\refint\SenderTest1.dll
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.pdb
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\SenderTest1.genruntimeconfig.cache
+D:\Code\Studetyzk111\Studetyzk\Rabbitmq\SenderTest1\SenderTest1\obj\Debug\net6.0\ref\SenderTest1.dll
