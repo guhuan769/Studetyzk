@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "dRNSYMDdtMp4zMMLbtNdwzHTm9ZMzVx4O+a75IGp7/I=",
+  "Source": "EventWebApi1",
+  "BasePath": "_content/EventWebApi1",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

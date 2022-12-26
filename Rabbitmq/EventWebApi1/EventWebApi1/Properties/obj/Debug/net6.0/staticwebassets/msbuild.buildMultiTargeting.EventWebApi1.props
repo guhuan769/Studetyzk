@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EventWebApi1.props" />
+</Project>
