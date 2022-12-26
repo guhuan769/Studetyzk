@@ -50,3 +50,7 @@
 /Asp.Net/WebApplication1/综合配置集成1/obj
 /Rabbitmq/SenderTest1/ConsumerTest1/bin/Debug/net6.0
 /Rabbitmq/SenderTest1/ConsumerTest1/obj
+/Rabbitmq/EventWebApi1/EventWebApi1/bin/Debug/net6.0
+/Rabbitmq/EventWebApi1/EventWebApi1/obj
+/Rabbitmq/EventWebApi1/EventWebApi2/obj
+/Rabbitmq/EventWebApi1/EventWebApi2/bin/Debug/net6.0
