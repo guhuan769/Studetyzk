@@ -58,3 +58,9 @@
 /Rabbitmq/EventWebApi1/ConsoleApp1/obj
 /Rabbitmq/EventWebApi1/Intf1/bin/Debug/net6.0
 /Rabbitmq/EventWebApi1/Intf1/obj
+/Domain/UserMgr.WebAPI/UserMgr.Domain/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/UserMgr.Domain/obj
+/Domain/UserMgr.WebAPI/UserMgr.Infrastracture/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/UserMgr.Infrastracture/obj
+/Domain/UserMgr.WebAPI/UserMgr.WebAPI/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/UserMgr.WebAPI/obj
