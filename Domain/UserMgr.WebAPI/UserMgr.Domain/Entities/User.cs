@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,7 +11,9 @@ namespace UserMgr.Domain.Entities
 {
     public record User : IAggregateRoot
     {
+        [Description("ID")]
         public Guid Id { get; init; }
+        [Description("PhoneNumber")]
         public PhoneNumber PhoneNumber { get; private set; }
         /// <summary>
         /// 密码散列值
