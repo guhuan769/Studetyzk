@@ -38,6 +38,12 @@ namespace UserMgr.Domain
             user.UserAccessFail.Reset();
         }
 
+        public Task AddUser(User user)
+        {
+            Task task = userRepository.AddUser(user);
+            return task;
+        }
+
         /// <summary>
         /// 是否已锁定 true 锁定 false 未锁定
         /// </summary>
@@ -102,7 +108,6 @@ namespace UserMgr.Domain
             }
 
             await userRepository.PublishEventAsync(new UserAccessResultEvent(phoneNumber, result));
-
             return result;
 
         }

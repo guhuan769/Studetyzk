@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Caching.Distributed;
 using UserMgr.Domain;
 using UserMgr.Domain.Entities;
@@ -13,6 +14,7 @@ namespace UserMgr.Infrastracture
     public class UserRepository : IUserRepository
     {
         private readonly UserDBContext dBContext;
+        //重此处内存切记记得注册 builder.Services.AddDistributedMemoryCache();
         private readonly IDistributedCache distributedCache;//分布式缓存 天然有一个超时机制
         private readonly IMediator mediator;
 
@@ -35,18 +37,24 @@ namespace UserMgr.Infrastracture
             //dBContext.SaveChanges();//DDD中一般不在Repository中直接SaveChanges(更改)
             //
         }
+          
+        public Task AddUser(User user)
+        {
+            dBContext.Users.Add(user);
+            return Task.CompletedTask;
+        }
 
         public Task<User?> FindOneAsync(PhoneNumber phoneNumber)
         {
             //NuGet\Install-Package Zack.Infrastructure -Version 1.1.3
             //return dBContext.Users.SingleOrDefault(x => x.PhoneNumber.PhoneNum == phoneNumber.PhoneNum && x.PhoneNumber.RegionNumber == phoneNumber.RegionNumber);
-            User? user = dBContext.Users.SingleOrDefault(ExpressionHelper.MakeEqual((User u) => u.PhoneNumber, phoneNumber));
+            User? user = dBContext.Users.Include(u=>u.UserAccessFail).SingleOrDefault(ExpressionHelper.MakeEqual((User u) => u.PhoneNumber, phoneNumber));
             return Task.FromResult(user);
         }
 
         public Task<User?> FindOneAsync(Guid userId)
         {
-            User? user = dBContext.Users.SingleOrDefault(x => x.Id == userId);
+            User? user = dBContext.Users.Include(u => u.UserAccessFail).SingleOrDefault(x => x.Id == userId);
             return Task.FromResult(user);
         }
 

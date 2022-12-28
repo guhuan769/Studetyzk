@@ -51,5 +51,7 @@ namespace UserMgr.Domain
         public Task<string?> FindPhoneNumberCodeAsync(PhoneNumber phoneNumber );
 
         public Task PublishEventAsync(UserAccessResultEvent _event);
+
+        public Task AddUser(User user);
     }
 }
