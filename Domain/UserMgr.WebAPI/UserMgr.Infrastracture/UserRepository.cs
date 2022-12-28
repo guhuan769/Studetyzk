@@ -7,6 +7,9 @@ using Zack.Infrastructure.EFCore;
 
 namespace UserMgr.Infrastracture
 {
+    /*
+        工作单元是由应用服务层来确定，
+     */
     public class UserRepository : IUserRepository
     {
         private readonly UserDBContext dBContext;
@@ -27,9 +30,10 @@ namespace UserMgr.Infrastracture
             if (user != null)
             {
                 userId = user.Id;
-
             }
             dBContext.UserLoginHistorys.Add(new UserLoginHistory(userId, phoneNumber, message, DateTime.Now));
+            //dBContext.SaveChanges();//DDD中一般不在Repository中直接SaveChanges(更改)
+            //
         }
 
         public Task<User?> FindOneAsync(PhoneNumber phoneNumber)
