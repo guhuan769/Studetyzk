@@ -39,7 +39,7 @@ namespace UserMgr.Domain.Entities
         /// <returns></returns>
         public bool HasPassword()
         {
-            return !string.IsNullOrEmpty(this.passwordHash);
+            return string.IsNullOrEmpty(this.passwordHash);
         }
 
         /// <summary>
