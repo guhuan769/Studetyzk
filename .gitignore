@@ -64,3 +64,9 @@
 /Domain/UserMgr.WebAPI/UserMgr.Infrastracture/obj
 /Domain/UserMgr.WebAPI/UserMgr.WebAPI/bin/Debug/net6.0
 /Domain/UserMgr.WebAPI/UserMgr.WebAPI/obj
+/Domain/UserMgr.WebAPI/JWT解码/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/JWT解码/obj
+/Domain/UserMgr.WebAPI/JWT读取程序(效验签名)/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/JWT读取程序(效验签名)/obj
+/Domain/UserMgr.WebAPI/生成JWT/bin/Debug/net6.0
+/Domain/UserMgr.WebAPI/生成JWT/obj
