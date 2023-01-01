@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using UserMgr.Domain;
 using UserMgr.Infrastracture;
@@ -7,6 +8,7 @@ namespace UserMgr.WebAPI.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
+    [Authorize]//所有得方法必须得登录才能访问 如果再 action 里面放入此注解那么就是非全局引用
     public class CRUDController : ControllerBase
     {
         private readonly IUserRepository userRepository;

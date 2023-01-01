@@ -1,7 +1,11 @@
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using System.Reflection;
+using System.Text;
 using UserMgr.Domain;
 using UserMgr.Infrastracture;
 using UserMgr.WebAPI;
@@ -35,6 +39,46 @@ builder.Services.AddScoped<IUserRepository,UserRepository> ();
 //应用层进行服务得拼装
 builder.Services.AddScoped<ISmsCodeSender, MockSmsCodeSender>();
 
+//读取配置
+builder.Services.Configure<JWTSettings>(builder.Configuration.GetSection("JWT"));
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(opt => {
+        var jWTSettings = builder.Configuration.GetSection("JWT").Get<JWTSettings>();
+        byte[] keyBytes = Encoding.UTF8.GetBytes(jWTSettings.SecKey);
+        var secKey = new SymmetricSecurityKey(keyBytes);
+        opt.TokenValidationParameters = new()
+        {
+            //效验过期时间ValidateLifetime设置为true ValidateIssuerSigningKey效验签名 IssuerSigningKey签名时什么
+            ValidateIssuer = false,
+            ValidateAudience = false,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            IssuerSigningKey = secKey
+        };
+    });
+
+builder.Services.AddSwaggerGen(c =>
+{
+    var scheme = new OpenApiSecurityScheme()
+    {
+        Description = "Authorization header. \r\nExample: 'Bearer 12345abcdef'",
+        Reference = new OpenApiReference
+        {
+            Type = ReferenceType.SecurityScheme,
+            Id = "Authorization"
+        },
+        Scheme = "oauth2",
+        Name = "Authorization",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.ApiKey,
+    };
+    c.AddSecurityDefinition("Authorization", scheme);
+    var requirement = new OpenApiSecurityRequirement();
+    requirement[scheme] = new List<string>();
+    c.AddSecurityRequirement(requirement);
+});
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -45,6 +89,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseAuthentication();
+
 
 app.UseAuthorization();
 
