@@ -42,7 +42,7 @@ namespace UserMgr.WebAPI.Controllers
             claims.Add(new Claim(ClaimTypes.NameIdentifier, "1"));
             claims.Add(new Claim(ClaimTypes.Name, "gh"));
             //新增角色
-            claims.Add(new Claim(ClaimTypes.Role,"admin"));
+            //claims.Add(new Claim(ClaimTypes.Role,"admin"));
 
             string key = optionsSnapshot.Value.SecKey;
             DateTime expire = DateTime.Now.AddSeconds(optionsSnapshot.Value.ExpireSeconds);

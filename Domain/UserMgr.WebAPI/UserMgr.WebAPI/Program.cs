@@ -61,7 +61,7 @@ builder.Services.AddSwaggerGen(c =>
 {
     var scheme = new OpenApiSecurityScheme()
     {
-        Description = "Authorization header. \r\nExample: 'Bearer 12345abcdef'",
+        Description = "Authorization header. \r\nExample: 'Bearer 312321321FDSFHDHSFDUKHFSDKFD'",
         Reference = new OpenApiReference
         {
             Type = ReferenceType.SecurityScheme,
