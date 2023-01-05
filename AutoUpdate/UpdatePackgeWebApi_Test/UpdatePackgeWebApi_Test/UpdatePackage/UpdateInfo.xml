@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<UpdatePackageInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>1.0.6</Version>
+  <UpdatePackageFileAddress>http://localhost:22493/api/UpdateSoftwarePackage/GetUpdatePackageFile</UpdatePackageFileAddress>
+  <UpdatePackageConfigAddress>http://localhost:22493/api/UpdateSoftwarePackage/GetUpdatePackageConfig</UpdatePackageConfigAddress>
+  <FileName>netcoreapp3.1.zip</FileName>
+  <FileHash>027844a8a0d5c1f29df795e2bf1a4264</FileHash>
+</UpdatePackageInfo>

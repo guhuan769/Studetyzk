@@ -1,0 +1,11 @@
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\UpdatePackgeWebApi_Test.exe
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\UpdatePackgeWebApi_Test.dll
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\UpdatePackgeWebApi_Test.deps.json
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\UpdatePackgeWebApi_Test.runtimeconfig.json
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\UpdatePackgeWebApi_Test.pdb
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\AllProjects\AllTestProjects\C#\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
