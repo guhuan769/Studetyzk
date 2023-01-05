@@ -70,3 +70,12 @@
 /Domain/UserMgr.WebAPI/JWT读取程序(效验签名)/obj
 /Domain/UserMgr.WebAPI/生成JWT/bin/Debug/net6.0
 /Domain/UserMgr.WebAPI/生成JWT/obj
+/AutoUpdate/AutoUpdateClient_Test/AutoUpdateClient_Test/bin/Debug/netcoreapp3.1
+/AutoUpdate/AutoUpdateClient_Test/AutoUpdateClient_Test/obj
+/AutoUpdate/PackagingRelease_Test/PackagingRelease_Test/bin/Debug/netcoreapp3.1
+/AutoUpdate/PackagingRelease_Test/PackagingRelease_Test/obj/Debug/netcoreapp3.1
+/AutoUpdate/UpdatePackgeWebApi_Test/UpdatePackgeWebApi_Test/bin
+/AutoUpdate/UpdateSoftWarePackage_Test/UpdateSoftWarePackage_Test/bin/Debug/netcoreapp3.1
+/AutoUpdate/UpdateSoftWarePackage_Test/UpdateSoftWarePackage_Test/obj
+/MAUI/GH.MauiLesson/GH.MauiLesson/bin/Debug
+/MAUI/GH.MauiLesson/GH.MauiLesson/obj
