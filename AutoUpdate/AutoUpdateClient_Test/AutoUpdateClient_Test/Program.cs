@@ -42,9 +42,5 @@ namespace AutoUpdateClient_Test
 
 
         }
-
-       
-
-
     }//Class_end
 }

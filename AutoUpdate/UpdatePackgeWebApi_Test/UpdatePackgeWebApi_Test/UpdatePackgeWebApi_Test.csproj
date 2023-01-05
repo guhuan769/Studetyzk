@@ -8,18 +8,5 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="UpdatePackage\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="UpdatePackage\netcoreapp3.1.zip">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="UpdatePackage\UpdateInfo.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
 
 </Project>

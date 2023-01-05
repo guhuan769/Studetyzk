@@ -30,8 +30,6 @@ D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWe
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\appsettings.json
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackgeWebApi_Test.StaticWebAssets.xml
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackgeWebApi_Test.exe
-D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackage\netcoreapp3.1.zip
-D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackage\UpdateInfo.xml
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackgeWebApi_Test.deps.json
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackgeWebApi_Test.runtimeconfig.json
 D:\Code\Studetyzk111\Studetyzk\AutoUpdate\UpdatePackgeWebApi_Test\UpdatePackgeWebApi_Test\bin\Debug\netcoreapp3.1\UpdatePackgeWebApi_Test.runtimeconfig.dev.json
