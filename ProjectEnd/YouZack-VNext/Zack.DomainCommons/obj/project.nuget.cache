@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "T9uEf+nmZ3oLIn7BiH5PT1rzIvjLfXScSAJXFsvUVHmjefl/R4SqA4Ujyavcr1zSGKh9KmpGCDi341FmiHfDnQ==",
+  "success": true,
+  "projectFilePath": "D:\\Code\\Studetyzk111\\Studetyzk\\ProjectEnd\\YouZack-VNext\\Zack.DomainCommons\\Zack.DomainCommons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Administrator\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

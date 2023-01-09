@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\BlazorMVC1.csproj": {}
+  },
+  "projects": {
+    "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\BlazorMVC1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\BlazorMVC1.csproj",
+        "projectName": "BlazorMVC1",
+        "projectPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\BlazorMVC1.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://nuget.devexpress.com/cHMMCgXlslAvKJyjpSKvAxyRQSMZTkPNKpC1lditXWPLFglDmT/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\BlazorWebAsm1.csproj": {
+                "projectPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\BlazorWebAsm1.csproj"
+              },
+              "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\Zack.Commons.csproj": {
+                "projectPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\Zack.Commons.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AsmResolver.DotNet": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.1-dev-00250, )"
+            },
+            "Zack.ASPNETCore": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Zack.AnyDBConfigProvider": {
+              "target": "Package",
+              "version": "[1.1.3, )"
+            },
+            "Zack.Commons": {
+              "target": "Package",
+              "version": "[1.1.11, )"
+            },
+            "Zack.EventBus": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Zack.Infrastructure": {
+              "target": "Package",
+              "version": "[1.1.2, )"
+            },
+            "Zack.JWT": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\BlazorWebAsm1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\BlazorWebAsm1.csproj",
+        "projectName": "BlazorWebAsm1",
+        "projectPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\BlazorWebAsm1.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorWebAsm1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://nuget.devexpress.com/cHMMCgXlslAvKJyjpSKvAxyRQSMZTkPNKpC1lditXWPLFglDmT/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
+              "version": "[6.0.12, 6.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\Zack.Commons.csproj": {
+      "version": "1.1.11",
+      "restore": {
+        "projectUniqueName": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\Zack.Commons.csproj",
+        "projectName": "Zack.Commons",
+        "projectPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\Zack.Commons.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\Zack.Commons\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://nuget.devexpress.com/cHMMCgXlslAvKJyjpSKvAxyRQSMZTkPNKpC1lditXWPLFglDmT/api": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AsmResolver.DotNet": {
+              "target": "Package",
+              "version": "[4.11.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.3.6, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

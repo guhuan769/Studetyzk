@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "CLoYt2JfZmBIiRb9H6WV4GU6uWL0WMVS0bW2Sw/Pojs=",
+  "Source": "FileService.WebAPI",
+  "BasePath": "_content/FileService.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FileService.WebAPI\\wwwroot",
+      "Source": "FileService.WebAPI",
+      "ContentRoot": "D:\\Code\\Studetyzk111\\Studetyzk\\ProjectEnd\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Code\\Studetyzk111\\Studetyzk\\ProjectEnd\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\index.html",
+      "SourceId": "FileService.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Code\\Studetyzk111\\Studetyzk\\ProjectEnd\\YouZack-VNext\\FileService.WebAPI\\wwwroot\\",
+      "BasePath": "_content/FileService.WebAPI",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

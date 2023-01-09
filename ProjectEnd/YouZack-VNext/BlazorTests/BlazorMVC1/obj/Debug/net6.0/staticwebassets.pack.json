@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorMVC1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorMVC1.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Code\\Studetyzk111\\yuan\\NETBookMaterials\\最后大项目代码\\YouZack-VNext\\BlazorTests\\BlazorMVC1\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BlazorMVC1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BlazorMVC1.props",
+      "PackagePath": "build\\BlazorMVC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorMVC1.props",
+      "PackagePath": "buildMultiTargeting\\BlazorMVC1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BlazorMVC1.props",
+      "PackagePath": "buildTransitive\\BlazorMVC1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
